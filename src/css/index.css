@@ -164,3 +164,18 @@
     box-shadow: 5px 5px 5px 5px rgb(116, 112, 112);
   }
 }
+
+.contact{
+  display: inline-block;
+  position: relative;
+}
+
+.contact:after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid red;
+  width: 100%;
+  transform: translateX(-50%);
+  bottom: -17px;
+  left: 50%;
+}

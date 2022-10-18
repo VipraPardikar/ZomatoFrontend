@@ -81,8 +81,8 @@ function Header(props) {
                 <span className=" text-white me-3">
                   Welcome,{userLogin.name}
                 </span>
-                <button className="btn btn-warning" onClick={logout}>
-                  Logout
+                <button className="btn btn-primary" onClick={logout}>
+                  Sign out
                 </button>
               </div>
             )}

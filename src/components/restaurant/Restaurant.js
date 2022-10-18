@@ -371,7 +371,7 @@ function Restaurant(props) {
                   <li
                     className={
                       isContact === false
-                        ? "border-bottom border-3 border-danger cursor-pointer"
+                        ? "cursor-pointer contact fw-bold"
                         : "hand"
                     }
                     onClick={() => setIsContact(false)}
@@ -381,7 +381,7 @@ function Restaurant(props) {
                   <li
                     className={
                       isContact === true
-                        ? "border-bottom border-3 border-danger "
+                        ? " contact fw-bold "
                         : "hand"
                     }
                     onClick={() => setIsContact(true)}
